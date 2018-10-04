@@ -1,0 +1,166 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\package.json" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\bootstrap.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\bootstrap.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\fabric.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\highcontrast.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\material.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\bootstrap.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\fabric.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\highcontrast.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\material.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\bootstrap.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\fabric.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\highcontrast.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\material.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\bootstrap.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\fabric.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\highcontrast.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\material.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\fabric.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\highcontrast.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\material.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\bootstrap.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\fabric.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\highcontrast.css" />
+    <Content Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\material.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="node_modules\%40syncfusion\ej2-calendars\calendar.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\CHANGELOG.md" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\datepicker.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\daterangepicker.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\datetimepicker.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\dist\ej2-calendars.umd.min.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\dist\ej2-calendars.umd.min.js.map" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\dist\es6\ej2-calendars.es2015.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\dist\es6\ej2-calendars.es2015.js.map" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\dist\es6\ej2-calendars.es5.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\dist\es6\ej2-calendars.es5.js.map" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\dist\global\ej2-calendars.min.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\dist\global\ej2-calendars.min.js.map" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\index.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\license" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\README.md" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\calendar\calendar.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\calendar\index.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\datepicker\datepicker.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\datepicker\index.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\daterangepicker\daterangepicker.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\daterangepicker\index.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\datetimepicker\datetimepicker.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\datetimepicker\index.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\global.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\index.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\timepicker\index.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\src\timepicker\timepicker.js" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\bootstrap.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\bootstrap.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\fabric.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\highcontrast.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\material.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_all.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_bootstrap-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_fabric-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_highcontrast-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_icons.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_layout.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_material-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\calendar\_theme.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\bootstrap.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\fabric.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\highcontrast.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\material.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_all.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_bootstrap-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_fabric-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_highcontrast-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_icons.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_layout.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_material-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datepicker\_theme.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\bootstrap.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\fabric.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\highcontrast.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\material.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\_all.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\_bootstrap-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\_fabric-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\_highcontrast-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\_icons.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\_layout.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\_material-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\daterangepicker\_theme.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\bootstrap.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\fabric.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\highcontrast.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\material.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_all.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_bootstrap-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_fabric-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_highcontrast-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_icons.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_layout.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_material-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\datetimepicker\_theme.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\fabric.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\highcontrast.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\material.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\bootstrap.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\fabric.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\highcontrast.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\material.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\_all.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\_bootstrap-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\_definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\_fabric-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\_highcontrast-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\_layout.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\_material-definition.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\styles\timepicker\_theme.scss" />
+    <None Include="node_modules\%40syncfusion\ej2-calendars\timepicker.js" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\calendar.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\datepicker.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\daterangepicker.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\datetimepicker.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\dist\global\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\calendar\calendar-model.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\calendar\calendar.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\calendar\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\datepicker\datepicker-model.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\datepicker\datepicker.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\datepicker\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\daterangepicker\daterangepicker-model.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\daterangepicker\daterangepicker.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\daterangepicker\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\datetimepicker\datetimepicker-model.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\datetimepicker\datetimepicker.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\datetimepicker\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\timepicker\index.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\timepicker\timepicker-model.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\src\timepicker\timepicker.d.ts" />
+    <TypeScriptCompile Include="node_modules\%40syncfusion\ej2-calendars\timepicker.d.ts" />
+    <TypeScriptCompile Include="Scripts\calendar.ts" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>

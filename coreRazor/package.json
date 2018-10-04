@@ -1,0 +1,17 @@
+{
+  "name": "razor",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "calendar.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@syncfusion/ej2-calendars": "16.3.21",
+    "source-map-loader": "0.1.6",
+    "webpack": "2.2.1",
+    "ts-loader": "^2.3.4",
+    "typescript": "^2.4.2"
+  }
+}
